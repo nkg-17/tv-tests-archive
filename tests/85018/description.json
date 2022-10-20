@@ -1,24 +1,25 @@
 {
-	"name": "Test 85018",
-	"tags": [ "tag1", "tag2" ],
-	"starred": false,
+	"layout": "double-panel",
+	"title": "Test 85018",
+	"tags": [ "tag0", "tag1" ],
+
 	"problem": {
-		"preface": "Цилиндр и конус имеют общие основание и высоту. Объём конуса равен 25. Найдите объём цилиндра.",
+		"text": "Problem text",
+		"answer": "Enter the answer",
+		"picture": "picture.svg",
+
 		"tasks": [
-			{ "title": "Найти", "text": "Длину стороны а" },
-			{ "title": "Доказать", "text": "Стороны а и b равны" },
-			{ "title": "Доказать", "text": "Стороны а и b равны" },
-			{ "title": "Доказать", "text": "Стороны а и b равны" },
-			{ "title": "Доказать", "text": "Стороны а и b равны" },
-			{ "title": "Доказать", "text": "Стороны а и b равны" }
-		],
-		"pictureUrl": "picture.svg"
+			{ "title": "Subtask", "text": "Subtask text" }
+		]
 	},
+
 	"solution": {
-		"preface": "Solution preface",
-		"tasks": [
-			{ "text": "Task 1 solution text", "answer": "Task 1 answer" },
-			{ "text": "Task 2 solution text", "answer": "Task 1 answer" }
+		"text": "Solution text",
+		"answer": "123",
+		"picture": "picture.svg",
+
+		"tasks" : [ 
+			{ "text": "Subtask solution text", "answer": "subtask answer" } 
 		]
 	}
 }
