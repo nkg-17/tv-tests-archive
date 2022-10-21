@@ -6,20 +6,11 @@
 	"problem": {
 		"text": "Problem text",
 		"answer": "Enter the answer",
-		"picture": "picture.svg",
-
-		"tasks": [
-			{ "title": "Subtask", "text": "Subtask text" }
-		]
+		"picture": "picture.svg"
 	},
 
 	"solution": {
 		"text": "Solution text",
-		"answer": "123",
-		"picture": "picture.svg",
-
-		"tasks" : [ 
-			{ "text": "Subtask solution text", "answer": "subtask answer" } 
-		]
+		"answer": "123"
 	}
 }
