@@ -5,11 +5,11 @@
 
 	"problem": {
 		"text": "Problem text",
-		"answer": [ "Apples", "Oranges", "Crabs" ],
+		"answer": [ "Apples", "Oranges", "Crabs" ]
 	},
 
 	"solution": {
 		"text": "You should've choosed oranges >:[",
-		"answer": 1,
+		"answer": 1
 	}
 }
