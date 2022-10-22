@@ -1,5 +1,4 @@
 {
-	"layout": "single-panel",
 	"title": "Test 1142",
 	"tags": [ "tag1" ],
 
@@ -7,6 +6,8 @@
 		"text": "Problem text",
 		"answer": [ "Apples", "Oranges", "Crabs" ]
 	},
+
+	"tips": [ "Tip 1", "Tip 2" ],
 
 	"solution": {
 		"text": "You should've choosed oranges >:[",
