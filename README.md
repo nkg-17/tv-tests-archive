@@ -1,18 +1,14 @@
-# Архив задач по стереометрии ЕГЭ
 
 ## Формат задачи
+**description.json:**
 ```json
 {
-    "title": "",
-    "tags": [ "tag0" ],
+    "title": ""
 
     "problem": {
         "text": "",
-        "answer": "",
-        "picture": ""
+        "answer": ""
     },
-
-    "tips": [ "" ],
 
     "solution": {
         "text": "",
@@ -20,18 +16,19 @@
     }
 }
 ```
-```json
-{
-    "title": "",
 
-    "problem": {
-        "text": "",
-        "answer": [ "Boats", "Yachts", "Battleships" ]
-    },
+**Необязательные поля:**
+- `problem.answer` - Плейсхолдер в поле ответа
+- `solution.text` - Запятые меняются на точки автоматически
 
-    "solution": {
-        "text": "The answer is 'Yachts'",
-        "answer": 1
-    }
-}
+**Структура репозитория:**
+```
+root/
+    tests/
+        <test-ID: int>/
+            description.json
+        <test-ID: int>/
+            description.json
+        ...
+    README.md
 ```
