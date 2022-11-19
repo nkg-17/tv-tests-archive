@@ -3,7 +3,7 @@
 **description.json:**
 ```json
 {
-    "title": ""
+    "title": "",
 
     "problem": {
         "text": "",
