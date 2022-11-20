@@ -19,7 +19,7 @@
 
 **Необязательные поля:**
 - `problem.answer` - Плейсхолдер в поле ответа
-- `solution.text` - Запятые меняются на точки автоматически
+- `solution.answer` - Запятые меняются на точки автоматически
 
 Актуальный формат: [`MathTest.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/common/MathTest.js), [`util.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/api/util.js) (может измениться)
 
