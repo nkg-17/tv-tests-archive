@@ -18,8 +18,8 @@
 ```
 
 **Необязательные поля:**
-- `problem.answer` - Плейсхолдер в поле ответа
-- `solution.answer` - Запятые меняются на точки автоматически
+- `problem.answer` - Плейсхолдер в поле ответа.
+- `solution.answer` - Запятые меняются на точки автоматически, регистр неважен.
 
 Актуальный формат: [`MathTest.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/common/MathTest.js), [`util.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/api/util.js) (может измениться)
 
@@ -27,11 +27,11 @@
 ```
 root/
     tests/
-        <test-ID: int>/
+        <ID>/
             description.json
-        <test-ID: int>/
+        <ID>/
             description.json
         ...
     README.md
 ```
-- `test-ID` - Неповторяющееся число или строка ([формат](https://github.com/nkg-17/math-tests-tv/blob/cb6ad52c47a8085fa9690786cccc11119293066e/src/common/MathTest.js#L62))
+- `ID` - Неповторяющееся число или строка ([формат](https://github.com/nkg-17/math-tests-tv/blob/cb6ad52c47a8085fa9690786cccc11119293066e/src/common/MathTest.js#L62))
