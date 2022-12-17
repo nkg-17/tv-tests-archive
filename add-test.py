@@ -29,7 +29,7 @@ description_format = """
 def create_description(
 		title: str="", 
 		problem: str="",
-		placeholder: str="", 
+		placeholder: str="Ответ", 
 		solution: str="", 
 		answer: str="",
 		about: str="") -> str:
