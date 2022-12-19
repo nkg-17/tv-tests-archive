@@ -19,11 +19,8 @@
 }
 ```
 
-**Необязательные поля:**
 - `problem.answer` - Плейсхолдер в поле ответа.
 - `solution.answer` - Запятые меняются на точки автоматически, регистр неважен.
-
-Актуальный формат: [`MathTest.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/common/MathTest.js), [`util.js`](https://github.com/nkg-17/math-tests-tv/blob/main/src/api/util.js) (может измениться)
 
 ## Структура репозитория
 ```
