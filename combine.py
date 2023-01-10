@@ -17,6 +17,7 @@ for tid in os.listdir("./tests"):
 			
 			test = {
 				'id': tid,
+				'title': tid,
 				'problem': {
 					'text': desc['problem']['text'],
 					'answer': {
